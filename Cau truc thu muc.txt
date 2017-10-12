@@ -1,0 +1,39 @@
+app-name
+    |_  /_config
+    |       |_  /config.php                           // file khai báo cấu hình
+    |       |_  /loader.php
+    |       |_  /services.php
+    |-  /_core
+    |       |_  /extras                               // nơi lưu các hàm xử lý tự định nghĩa
+    |       |_  /plugins                              // nơi lưu các plugins php
+    |       |_  /system                               // thư mục gốc của phần admin
+    |       |       |_  /controllers
+    |       |       |_  /models
+    |       |       |_  /routers
+    |       |       |       |_  /api.php                            // khai báo routes cho REST API CMS
+    |       |       |       |_  /web.php                            // khai báo routes cho CMS
+    |       |       |_  /views
+    |       |       |_  /index.php
+    |       |_  /router.php
+    |_  /app                                          // thư mục gốc của phần ứng dụng web
+    |       |_  /controllers
+    |       |_  /models
+    |       |_  /views
+    |       |_  /index.php
+    |_  /public
+    |       |_  /.htaccess
+    |       |_  /index.php
+    |_  /resources
+    |       |_  /data                               // thư mục lưu file
+    |       |       |_  /docs
+    |       |       |_  /imgs
+    |       |_  /lang                               // nơi lưu khai báo ngôn ngữ
+    |               |_  /vi.php
+    |               |_  /en.php
+    |_  /routes
+    |       |_  /api.php                            // khai báo routes cho REST API
+    |       |_  /web.php                            // khai báo routes cho ứng dung web
+    |_  /storage
+    |       |_  /logs                               // nơi lưu các file logs
+    |       |_  /temp_data                          // nơi lưu tạm các file mới được upload vào hệ thống
+    |_  /.htaccess

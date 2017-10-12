@@ -1,0 +1,5 @@
+.DS_Store
+/app/tmp/*
+_core/system/compiled-templates
+storage/temp_data*
+/storages/
